@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_centerInParent="true"
+android:background="@color/transparent"
+android:padding="30dp">
+
+
+<LinearLayout
+    android:id="@+id/internet_layout"
+    android:layout_width="match_parent"
+    android:paddingBottom="30dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="Please Update Diary ..."
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:hint="Name Diary"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edt_name_diary_update_dailog"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:hint="Description Diary"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edt_description_update_dailog"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:text="Cancel"
+                android:id="@+id/butt_cancle_update_Diary_dailog"
+                android:textColor="@color/white"
+                android:background="@color/red"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Update"
+            android:id="@+id/butt_update_Diary_dailog"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:background="@color/green"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+</RelativeLayout>

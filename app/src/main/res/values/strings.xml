@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AwsProjectAndroid</string>
+    <string name="menu_custom_update">Update</string>
+    <string name="menu_custom_delete">Delete</string>
+</resources>

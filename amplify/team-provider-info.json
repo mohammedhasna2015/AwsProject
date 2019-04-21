@@ -1,0 +1,14 @@
+{
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "awsprojectandroid-20190421173725-authRole",
+            "UnauthRoleArn": "arn:aws:iam::468687435898:role/awsprojectandroid-20190421173725-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::468687435898:role/awsprojectandroid-20190421173725-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "awsprojectandroid-20190421173725-deployment",
+            "UnauthRoleName": "awsprojectandroid-20190421173725-unauthRole",
+            "StackName": "awsprojectandroid-20190421173725",
+            "StackId": "arn:aws:cloudformation:us-east-2:468687435898:stack/awsprojectandroid-20190421173725/fd0a7190-6442-11e9-8d7e-0aa0cd9d9f9c"
+        }
+    }
+}
